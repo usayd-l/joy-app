@@ -1,6 +1,6 @@
 /********** common setting **********/
 h2 {
-    font-size: 2.8rem !important;
+    font-size: 3.8rem !important;
     font-weight: 700;
 }
 
@@ -35,13 +35,13 @@ button {
 }
 
 .cta-green {
-    background: #ffd000;
+    background: #fca307;
     color: #192440;
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #ffd000;
+    background: #fca307;
 }
 
 .cta-blue {
@@ -84,7 +84,7 @@ button {
 }
 
 #feature-first {
-    background: #ffd000;
+    background: #fca307;
 }
 
 #feature-last {
@@ -116,13 +116,13 @@ button {
 }
 
 #contact form {
-    color: #ffd000;
+    color: #fca307;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #ffd000;
+    border: 1px solid #fca307;
     color: #ffffff;
 }
 
