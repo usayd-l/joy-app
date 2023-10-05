@@ -34,14 +34,14 @@ button {
 }
 
 .cta-green {
-    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 54, 59, 1) 67%, rgba(255, 0, 114, 1) 100%);
     color: #192440;
     transition: transform 0.3s ease-in-out; /* Add transition for smooth hover effect */
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 54, 59, 1) 67%, rgba(255, 0, 114, 1) 100%);
     transform: scale(1.05); /* Increase the scale on hover (adjust the value as needed) */
 }
 
@@ -64,8 +64,6 @@ button {
     color: #ffffff;
     background: #121a2e;
 }
-
-
 
 /* Rest of your CSS remains unchanged */
 
@@ -91,13 +89,26 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
-    color: #ffffff; /* You can adjust text color as needed */
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 54, 59, 1) 67%, rgba(255, 0, 114, 1) 100%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
 }
 
+#feature-first img {
+    max-width: 100%; /* Increase the max-width to make the image bigger */
+}
+
+#feature-first .col-md-6 {
+    padding: 3rem;
+}
 
 #feature-last {
     background: #ffffff;
+}
+
+#feature-last .col-md-6 {
+    margin-top: 1rem; /* Add margin to the top to lower the text */
 }
 
 /********** price table **********/
@@ -113,6 +124,19 @@ button {
 
 #price-table ul li {
     padding: 5px 0;
+}
+
+/* Add a CSS class for the pricing rectangles */
+.pricing-rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the buttons */
+.pricing-rectangle .cta-green {
+    margin-top: auto;
 }
 
 /********** contact **********/
@@ -176,6 +200,3 @@ button {
        overflow-y: hidden;
     }
 }
-
-
-
