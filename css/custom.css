@@ -96,11 +96,13 @@ button {
 }
 
 #feature-first img {
-    max-width: 100%; /* Increase the max-width to make the image bigger */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-right: 1rem; /* Add margin to separate the image and text */
 }
 
 #feature-first .col-md-6 {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 #feature-last {
