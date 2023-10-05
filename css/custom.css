@@ -1,11 +1,10 @@
-/********** common setting **********/
+/* Common Styles */
 h2 {
-    font-size: 3.8rem !important;
+    font-size: 3.8rem;
     font-weight: 700;
 }
 
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -35,13 +34,15 @@ button {
 }
 
 .cta-green {
-    background: #fca307;
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
     color: #192440;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth hover effect */
 }
 
 .cta-green:hover {
     color: #ffffff;
-    background: #fca307;
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
+    transform: scale(1.05); /* Increase the scale on hover (adjust the value as needed) */
 }
 
 .cta-blue {
@@ -64,8 +65,13 @@ button {
     background: #121a2e;
 }
 
+
+
+/* Rest of your CSS remains unchanged */
+
 #banner {
     background-size: cover;
+    color: #000; /* Set the text color to black */
 }
 
 /********** banner **********/
@@ -78,14 +84,17 @@ button {
 }
 
 /********** feature (skew background) **********/
+/* feature (skew background) */
 .feature img {
     width: 100%;
     max-width: 480px;
 }
 
 #feature-first {
-    background: #fca307;
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 0, 114, 1) 100%);
+    color: #ffffff; /* You can adjust text color as needed */
 }
+
 
 #feature-last {
     background: #ffffff;
