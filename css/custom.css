@@ -161,8 +161,12 @@ button {
     }
 }
 
-@media screen and (max-width: 480px){
-    body{
-      overflow-y: hidden;
+@media screen and (max-width: 480px) {
+    body {
+       max-height: 100vh;
+       overflow-y: hidden;
     }
- }
+}
+
+
+
