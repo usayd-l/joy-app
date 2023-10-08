@@ -183,7 +183,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #fca307;
+    background: linear-gradient(90deg, rgba(255, 113, 0, 1) 0%, rgba(255, 54, 59, 1) 67%, rgba(255, 0, 114, 1) 100%);;
 }
 
 #copyright #social-media a:hover i {
