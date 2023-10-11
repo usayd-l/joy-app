@@ -129,6 +129,7 @@ button {
     padding: 5px 0;
 }
 
+
 /* Add a CSS class for the pricing rectangles */
 .pricing-rectangle {
     display: flex;
@@ -140,6 +141,11 @@ button {
 /* Style the buttons */
 .pricing-rectangle .cta-green {
     margin-top: auto;
+}
+
+/* Add invisible feature styles */
+.invisible-feature {
+    visibility: hidden;
 }
 
 /********** contact **********/
